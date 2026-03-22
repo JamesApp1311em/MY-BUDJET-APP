@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gestionnaire de Dépenses</title>
+    <style>
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%; 
+            overflow: hidden; 
+            background-color: #0e1117; 
+        }
+        iframe {
+            position: absolute;
+            top: -48px; 
+            left: 0;
+            width: 100%;
+            height: calc(100% + 95px); 
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://my-budjet-app.streamlit.app/?embed=true"></iframe>
+</body>
+</html>
